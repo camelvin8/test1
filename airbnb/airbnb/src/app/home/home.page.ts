@@ -14,7 +14,7 @@ export class HomePage {
     private navCtrl: NavController
     ) {}
 
-  toProfile(){
-    this.navCtrl.navigateForward("profile")
+  toExplore(){
+    this.navCtrl.navigateForward("explore")
   }
 }
